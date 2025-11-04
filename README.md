@@ -1,7 +1,7 @@
 # readme
 
 UTN/Trabajo Práctico Integrador (TPI)/TUP
-Acosta Critina / 
+Acosta Cristina / 
 Gestión de Datos de Países en Python: 
 filtros, ordenamientos y estadísticas
 
