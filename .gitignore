@@ -1,0 +1,23 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Archivos temporales o de entorno
+.env/
+venv/
+*.env
+
+# ===== Archivos generados por la app =====
+paises.csv
+
+# ===== Docker =====
+*.log
+
+# ===== Archivos del sistema operativo =====
+.DS_Store
+Thumbs.db
+
+# ===== Otros =====
+.idea/
+.vscode/
