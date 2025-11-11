@@ -34,8 +34,8 @@ def funcion_promedio(paises,valor):
     else:
         for pais in paises:
             suma+=pais[valor]
-            promedio:float=suma/(len(paises))
-            print(f"Promedio {valor} mundial: {promedio:,.2f}")
+        promedio:float=suma/(len(paises))
+        print(f"Promedio {valor} mundial: {promedio:,.2f}")
 
 # Cantidad de países por continente
 def cantidad_paises(paises):
