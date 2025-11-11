@@ -18,8 +18,8 @@ def paises_lista():
             for i in range(len(datos)):
                 pais= datos[i]
                 paises={"nombre":pais["name"]["common"],
-                "poblacion":int(pais["population"]),
-                "area":int(pais["area"]),
+                "poblacion":float(pais["population"]),
+                "area":float(pais["area"]),
                 "continente":pais["continents"][0]}
                 paises_.append(paises)
             if not os.path.exists("paises.csv"):

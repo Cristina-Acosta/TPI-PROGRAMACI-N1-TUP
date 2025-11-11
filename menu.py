@@ -82,6 +82,7 @@ def menu():
                     case "a": mayor_menor_poblacion(paises)
                     case "b": funcion_promedio(paises,"poblacion")
                     case "c": funcion_promedio(paises,"area")
+                    case "d": funcion_promedio(paises,"continente")
             case "5":
                 print("¡Hasta luego!")
                 bandera=False
